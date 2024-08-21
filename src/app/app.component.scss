@@ -1,0 +1,102 @@
+/* src/app/app.component.css */
+:host {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .items-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .items-list {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item-card {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-content {
+    flex: 1;
+  }
+  
+  h3 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+  }
+  
+  p {
+    margin: 0;
+    color: #7f8c8d;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-save {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .btn-save:hover {
+    background-color: #27ae60;
+  }
+  
+  .btn-remove {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .items-container {
+      flex-direction: column;
+    }
+  }
+.input-field{
+    padding: 7px;
+    float: left;
+}
